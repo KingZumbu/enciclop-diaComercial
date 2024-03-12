@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciclopédia Comercial</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="showroom.css">
+    <script defer src="main.js"></script>
+    <script defer src="base.js"></script>
+    <script defer src="showroom.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="cabecalho_link">Principal</a>
+        <a href="manicures.html" class="cabecalho_link">Manicure</a>
+        <a href="mei.html" class="cabecalho_link">MEI</a>
+        <a href="webSite.html" class="cabecalho_link">Web Sites</a>
+    </header>
+    <main>
+        <div class="paraPc">
+            <section class="sr-showroom paraPc">
+                <div class="sr-container">
+                    <div class="sr-pass-button sr-pass-button-left" onclick="sr.previousPage()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                    </div>
+                    <div class="sr-content" onmouseenter="sr.stopAuto()" onmouseleave="sr.startAuto()">
+                        <ul>
+                            <li><img src="/img/MockUps Para Computador.jpg" alt="Imagem de Quadro" ></li>
+                            <li><img src="/img/MockUps Para Computador.jpg" alt="Imagem de Quadro" ></li>
+                            <li><img src="/img/MockUps Para Computador.jpg" alt="Imagem de Quadro" ></li>
+                        </ul>
+                    </div>
+                    <div class="sr-pass-button sr-pass-button-right" onclick="sr.nextPage()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="sr-paginate"></div>
+            </section>
+        </div>
+        <div class="paraCel">    
+            <section class="sr-showroom paraCel">
+                <div class="sr-container">
+                    <div class="sr-pass-button sr-pass-button-left" onclick="sr.previousPage()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                    </div>
+                    <div class="sr-content" onmouseenter="sr.stopAuto()" onmouseleave="sr.startAuto()">
+                        <ul>
+                            <li><img src="/img/MockUps para Celular.jpg" alt="Imagem de Quadro" ></li>
+                            <li><img src="/img/MockUps para Celular.jpg" alt="Imagem de Quadro" ></li>
+                            <li><img src="/img/MockUps para Celular.jpg" alt="Imagem de Quadro" ></li>
+                        </ul>
+                    </div>
+                    <div class="sr-pass-button sr-pass-button-right" onclick="sr.nextPage()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="sr-paginate"></div>
+            </section>
+        </div>
+        <section class="corpo">
+            <div class="propaganda paraPc">
+                <ul>
+                    <li><img class="imgPropaganda" src="imgPropaganda/WebPortugabyJunqueira.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/junquieira portugal.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                </ul>
+            </div>
+            <div class="anuncios">
+                <div class="anuncio">
+                    <img class="anuncioImg" src="/imgPropaganda/junquieira portugal.jpg" alt="Junquieira Portugal">
+                    <div class="anuncioTexto">
+                        <a href="/Paginas individuais/JunquieiraPortugal.html" class="anuncioTitulo">JunquiEira Portugal</a>
+                        <p class="anuncioTelefone">(24)99310 6425</p>
+                        <p class="anuncioDescricao">Web Site de venda de Quadros, de baixíssimo preço e ótima qualidade.</p>
+                        <p class="anuncioEndereco">Sem loja Física</p>
+                        <a href="https://junquieiraportugal.com.br/" class="anuncioWebSite">www.junquieiraportugal.com.br</a>     
+                    </div>
+                </div>
+                <div class="anuncio">
+                    <img class="anuncioImg" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Grazi Portugal">
+                    <div class="anuncioTexto">
+                        <a href="/Paginas individuais/GraziPortugal.html" class="anuncioTitulo">Grazi Portugal</a>
+                        <p class="anuncioTelefone">(24)99214 7509</p>
+                        <p class="anuncioDescricao">Manicure com um ótimo custo benefício, produtos de qualidade e combos fantásticos</p>
+                        <p class="anuncioEndereco">Praça Miguel Couto Filho, 144, Centro, Sapucaia</p>
+                        <a href="https://www.instagram.com/grazielaportugal/" class="anuncioWebSite">Instagram</a>     
+                    </div>
+                </div>
+                <div class="anuncio">
+                    <img class="anuncioImg" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Grazi Portugal">
+                    <div class="anuncioTexto">
+                        <a href="/Paginas individuais/GraziPortugal.html" class="anuncioTitulo">Grazi Portugal</a>
+                        <p class="anuncioTelefone">(24)99214 7509</p>
+                        <p class="anuncioDescricao">Manicure com um ótimo custo benefício, produtos de qualidade e combos fantásticos</p>
+                        <p class="anuncioEndereco">Praça Miguel Couto Filho, 144, Centro, Sapucaia</p>
+                        <a href="https://www.instagram.com/grazielaportugal/" class="anuncioWebSite">Instagram</a>     
+                    </div>
+                </div>
+                <div class="anuncio">
+                    <img class="anuncioImg" src="/imgPropaganda/WebPortugabyJunqueira.jpg" alt="Web Portugal by Junqueira">
+                    <div class="anuncioTexto">
+                        <a href="/Paginas individuais/WebPortugal.html" class="anuncioTitulo">Web Portugal by Junqueira</a>
+                        <p class="anuncioTelefone">(24)99310 6425</p>
+                        <p class="anuncioDescricao">Web Site de criação de sites, mockUps e consultoria estratégica.</p>
+                        <p class="anuncioEndereco">Sem endereço fixo</p>
+                        <a href="https://webportugalbyjunqueira.com.br/" class="anuncioWebSite">www.webportugalbyjunqueira.com.br</a>     
+                    </div>
+                </div>
+            </div>
+            <div class="propaganda paraPc">
+                <ul>
+                    <li><img class="imgPropaganda" src="imgPropaganda/WebPortugabyJunqueira.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/junquieira portugal.jpg" alt="Propaganda"></li>
+                    <li><img class="imgPropaganda" src="imgPropaganda/propaganda.jpg" alt="Propaganda"></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a class="rodiape" href="https://webportugalbyjunqueira.com.br/">
+            <p class="rodape">WEB PORTUGAL BY JUNQUEIRA</p>
+        </a>
+    </footer>
+</body>
+</html>

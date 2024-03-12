@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* header*/ 
+
+body {
+    margin: 0px;
+}
+
+.sr-content li p {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+}

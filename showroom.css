@@ -1,0 +1,135 @@
+.sr-showroom {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.sr-showroom .sr-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sr-showroom .sr-paginate {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0 10px;
+}
+
+.sr-showroom .sr-paginate ul {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+    /*reset browser*/
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.sr-showroom .sr-paginate li{
+    display: block;
+    background-color: #999;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 10px;
+    margin: 0 2px;
+
+    transition: min-width 0.3s ease;
+}
+
+.sr-showroom .sr-paginate li.sr-enable{
+    min-width: 30px;
+    border-radius: 10px;
+}
+
+.sr-showroom .sr-pass-button {
+    position: relative;
+    z-index: 1;
+}
+
+.sr-showroom .sr-pass-button svg{
+    position: absolute;
+    display: inline;
+    color: #777;
+}
+
+.sr-showroom .sr-pass-button.sr-pass-button-right svg {
+    right: 5px;
+}
+
+.sr-showroom .sr-pass-button.sr-pass-button-left svg {
+    left: 5px;
+}
+
+.sr-showroom .sr-content {
+    width: 100vw;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.sr-showroom .sr-content > ul {
+    display: flex;
+    flex-direction: row;
+
+    transition: transform 0.3s ease;
+    
+    /*reset browser*/
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.sr-showroom .sr-content > ul.sr-autoanimate {
+    animation: sr-showroom-autoslider 1s linear infinite;
+}
+
+.sr-showroom .sr-content > ul > li {
+    position: relative;
+    display: block;
+    min-width: 100vw;
+}
+
+.sr-showroom .sr-content > ul > li > img {
+    display: block;
+    margin: auto;
+}
+
+@keyframes sr-showroom-autoslider {
+    0% {transform: translateX(0vw);}
+    25% {transform: translateX(-100vw);}
+    50% {transform: translateX(-200vw);}
+    75% {transform: translateX(-300vw);}
+    100% {transform: translateX(-400vw);}
+}
+
+/* Mobile Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .sr-showroom .sr-content > ul > li > img {
+        width: 70vw;
+    }
+}
+
+/* Desktop Devices (768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .sr-showroom .sr-content > ul > li > img {
+        height: 70vh;
+    }
+}
+
+/* Ultrawide Screens (1024px and above) */
+@media only screen and (min-width: 1024px) {
+    .sr-showroom .sr-content > ul > li > img {
+        height: 70vh;
+    }
+}
