@@ -7,10 +7,10 @@
 
 :root{
     --font-principal: 'Roboto', sans-serif;
-    --cor-principal: #3E3636;
-    --cor-secundaria: #d72323;
-    --cor-terciaria: #f5eded;
-    --cor-fundo: #000000;
+    --cor-principal: #FF8303;
+    --cor-secundaria: #A35709;
+    --cor-terciaria: #1B1A17;
+    --cor-fundo: #F0E3CA;
     --cor-branco: rgb(250, 250, 250);
 }
 
@@ -29,6 +29,7 @@ body{
     padding: 0.2em 1em;
     text-align: center;
     justify-content: space-between;
+    display: flex;
 }
 
 .cabecalho_link{
@@ -37,6 +38,14 @@ body{
     color: var(--cor-terciaria);
     font-size: 0.5rem;
     margin: 0em 0.8em;
+}
+
+.cabecalho_link_selecionado{
+    font-family:'Cinzel', serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin: 0em 0.8em;
+    color: var(--cor-fundo);
 }
 
 .cabeca{
@@ -66,7 +75,7 @@ body{
 
 .anuncioTitulo{
     font-size: 15px;
-    color: var(--cor-branco);
+    color: var(--cor-terciaria);
     margin: 0 0 3px 0;
 }
 
@@ -112,11 +121,14 @@ body{
 }
 
 @media screen and (min-width: 720px){
+
+    .cabecalho_link_selecionado{
+        font-size: 1.2rem;
+    }
     
     .anuncios{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        color: var(--cor-terciaria);
         justify-content: center;
     }
     
@@ -133,7 +145,6 @@ body{
     
     .anuncioTitulo{
         font-size: 25px;
-        color: var(--cor-branco);
         margin: 0 0 3px 0;
     }
     
@@ -156,7 +167,6 @@ body{
     
     .anuncioWebSite{
         font-size: 14px;
-        color: var(--cor-secundaria);
     }
     
     .anuncioImg{

@@ -7,10 +7,10 @@
 
 :root{
     --font-principal: 'Roboto', sans-serif;
-    --cor-principal: #3E3636;
-    --cor-secundaria: #d72323;
-    --cor-terciaria: #f5eded;
-    --cor-fundo: #000000;
+    --cor-principal: #FF8303;
+    --cor-secundaria: #A35709;
+    --cor-terciaria: #1B1A17;
+    --cor-fundo: #F0E3CA;
     --cor-branco: rgb(250, 250, 250);
 }
 
@@ -57,7 +57,7 @@ body{
 
 .titulo{
     font-family: 'Bellefair', serif;
-    color: var(--cor-branco);
+    color: var(--cor-terciaria);
     font-size: 20px;
     grid-column: 3/7;
     text-align: center;
