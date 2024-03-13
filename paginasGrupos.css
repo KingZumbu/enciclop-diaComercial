@@ -30,22 +30,25 @@ body{
     text-align: center;
     justify-content: space-between;
     display: flex;
+    overflow: auto;
 }
 
 .cabecalho_link{
     text-decoration: none;
     font-family: 'Cinzel', serif;
     color: var(--cor-terciaria);
-    font-size: 0.5rem;
-    margin: 0em 0.8em;
+    font-size: 0.8rem;
+    margin: 0.4em 0.8em;
+    font-weight: 700;
 }
 
 .cabecalho_link_selecionado{
     font-family:'Cinzel', serif;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 800;
-    margin: 0em 0.8em;
+    margin: 0.4em 0.8em;
     color: var(--cor-fundo);
+    font-weight: 700;
 }
 
 .cabeca{
@@ -54,7 +57,7 @@ body{
 }
 
 .cabecaImg{
-    width: 19%;
+    width: 32%;
 }
 
 .anuncios{
@@ -124,6 +127,10 @@ body{
 
     .cabecalho_link_selecionado{
         font-size: 1.2rem;
+    }
+
+    .cabecaImg{
+        width: 19%;
     }
     
     .anuncios{
