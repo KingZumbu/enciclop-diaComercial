@@ -90,23 +90,25 @@ body{
 
 .anuncioDescricao{
     margin: 3px 0;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .anuncioEndereco{
-    margin:0;
+    margin: 2px 0;
     font-size: 10px;
     font-family: 'Bellefair', serif;
+    font-weight: 500;
 }
 
 .anuncioWebSite{
     font-size: 10px;
     color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
 .anuncioImg{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 .rodiape{

@@ -42,6 +42,11 @@ body{
     font-weight: 700;
 }
 
+.logotipo{
+    width: 100%;
+    margin: 1px;
+}
+
 .corpo{
     display: flex;
     justify-content: center;
@@ -75,6 +80,7 @@ body{
     font-size: 15px;
     color: var(--cor-terciaria);
     margin: 0 0 3px 0;
+    font-weight: 700;
 }
 
 .anuncioTelefone{
@@ -85,18 +91,22 @@ body{
 
 .anuncioDescricao{
     margin: 3px 0;
-    font-size: 8px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .anuncioEndereco{
-    margin: 3px 0;
-    font-size: 10px;
+    margin: 6px 0 3px 0;
+    font-size: 12px;
     font-family: 'Bellefair', serif;
+    font-weight: 500;
 }
 
 .anuncioWebSite{
     font-size: 10px;
     color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
 .anuncioImg{

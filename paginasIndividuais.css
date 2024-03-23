@@ -58,7 +58,7 @@ body{
 .titulo{
     font-family: 'Bellefair', serif;
     color: var(--cor-terciaria);
-    font-size: 20px;
+    font-size: 30px;
     grid-column: 3/7;
     text-align: center;
     margin: auto 10px auto 0;
@@ -109,7 +109,7 @@ body{
 }
 
 .cartaoLink{
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
 }
 
 .whatsImg{
