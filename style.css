@@ -103,6 +103,18 @@ body{
     font-weight: 500;
 }
 
+.anuncioInternet{
+    display: flex;
+    align-items: center;
+}
+
+.whatsImg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+
 .anuncioWebSite{
     font-size: 10px;
     color: var(--cor-secundaria);
@@ -179,6 +191,11 @@ body{
     
     .anuncioImg{
         width: 160px;
+    }
+
+    .whatsImg{
+        width: 30px;
+        height: 30px;
     }
 
     .anuncioWebSite{
