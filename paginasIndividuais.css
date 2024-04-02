@@ -7,10 +7,10 @@
 
 :root{
     --font-principal: 'Roboto', sans-serif;
-    --cor-principal: #FF8303;
-    --cor-secundaria: #A35709;
+    --cor-principal: #003366;
+    --cor-secundaria: black;
     --cor-terciaria: #1B1A17;
-    --cor-fundo: #F0E3CA;
+    --cor-fundo: #E0E0E0;
     --cor-branco: rgb(250, 250, 250);
 }
 
@@ -34,7 +34,7 @@ body{
 .cabecalho_link{
     text-decoration: none;
     font-family: 'Cinzel', serif;
-    color: var(--cor-terciaria);
+    color: var(--cor-branco);
     font-size: 1rem;
     margin: 0em 0.8em;
 }
@@ -109,7 +109,7 @@ body{
 }
 
 .cartaoLink{
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
 }
 
 .whatsImg{
@@ -127,9 +127,9 @@ body{
 .rodape {
     font-size: 0.7rem;
     text-align: center;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     padding: 0.5em 0;
-    color: var(--cor-fundo);
+    color: var(--cor-branco);
     font-family: 'Cinzel', serif;
     text-decoration: none;
 }
