@@ -6,6 +6,8 @@
     <title>JunquiEira Portugal</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="/paginasIndividuais.css">
+    <link rel="stylesheet" href="/carrossel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script defer src="main.js"></script>
 </head>
 <body>
@@ -14,29 +16,63 @@
         <a href="../webSite.html" class="cabecalho_link">Sites</a>
     </header>
     <main class="principal">
-        <img class="imglogo" src="/imgPropaganda/junquieira portugal.jpg" alt="Logo Graziela Portugal">
-        <h1 class="titulo">JunquiEira Portugal</h1>
-        <p class="texto">Descubra o JunquiEira Portugal, a nova revolução online! Com apenas pouco tempo de existência, nosso site é sinônimo de cuidado, carinho e inovação. Oferecemos qualidade impecável a preços acessíveis, garantindo uma experiência incomparável. Explore nossos serviços e descubra o que nos torna únicos. Deixe-nos guiar você por uma jornada digital memorável, onde cada clique é uma descoberta emocionante. Não perca tempo, junte-se à comunidade JunquiEira Portugal e experimente o futuro hoje mesmo!
-        </p>
-        <img class="img1" src="/imgIndividuais/JunquiEiraPortugal1.jpg" alt="JunquiEiraPortugal1">
-        <img class="img2" src="/imgIndividuais/JunquiEiraPortugal2.jpg" alt="JunquiEiraPortugal2">
-        <img class="img3" src="/imgIndividuais/JunquiEiraPortugal3.jpg" alt="JunquiEiraPortugal3">
-        <img class="img4" src="/imgIndividuais/JunquiEiraPortugal4.jpg" alt="JunquiEiraPortugal4">
-        <div class="cartaoDeVisitas">
-            <p class="cartaoCel">(24)99310 6425</p>
-            <p class="cartaoEnd">Sem endereço fixo</p>
-            <a href="https://junquieiraportugal.com.br/" class="cartaoLink">www.junquieira portugal.com.br</a>
+        <div class="topoDaPagina">
+            <img class="imglogo" src="/imgPropaganda/junquieira portugal.jpg" alt="Logo Graziela Portugal">
+            <h1 class="titulo">JunquiEira Portugal</h1>
         </div>
-        <div class="whats">
-            <a href="https://wa.me/5524993106425" target="_blank">
-                <img src="/imgPropaganda/WhatsApp Individual.jpg" alt="Whatsapp" class="whatsImg">
-            </a>
+        <section>
+            <div class="carrossel">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/imgIndividuais/JunquiEiraPortugal1.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JunquiEiraPortugal2.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JunquiEiraPortugal3.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JunquiEiraPortugal4.jpg"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> 
+                </div>
+            </div>
+        </section>
+        <div class="texto">
+            <p>Descubra o JunquiEira Portugal, a nova revolução online! Com apenas pouco tempo de existência, nosso site é sinônimo de cuidado, carinho e inovação. Oferecemos qualidade impecável a preços acessíveis, garantindo uma experiência incomparável. Explore nossos serviços e descubra o que nos torna únicos. Deixe-nos guiar você por uma jornada digital memorável, onde cada clique é uma descoberta emocionante. Não perca tempo, junte-se à comunidade JunquiEira Portugal e experimente o futuro hoje mesmo!</p>
         </div>
+        <section class="cartaoDeVisitas">
+            <div class="cartaoP1">
+                <p class="cartaoCel">(24)99310 6425</p>
+                <p class="cartaoEnd">Sem endereço fixo</p>
+            </div>
+            <div class="cartaoP2">
+                <a href="https://junquieiraportugal.com.br/" class="cartaoLinkGrande">www.junquieiraportugal.com.br</a>
+                <div class="whats">
+                    <a href="https://wa.me/5524993106425" target="_blank" class="whatsNun">WhatsApp</a>
+                </div>
+            </div>
+        </section>       
     </main>
     <footer>
         <a class="rodiape" href="https://webportugalbyjunqueira.com.br/">
             <p class="rodape">WEB PORTUGAL BY JUNQUEIRA</p>
         </a>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>

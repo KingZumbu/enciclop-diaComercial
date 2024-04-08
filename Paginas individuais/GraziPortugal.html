@@ -6,6 +6,8 @@
     <title>Grazi Portugal</title>
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/paginasIndividuais.css">
+    <link rel="stylesheet" href="/carrossel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script defer src="main.js"></script>
 </head>
 <body>
@@ -14,30 +16,62 @@
         <a href="../manicures.html" class="cabecalho_link">Manicure</a>
     </header>
     <main class="principal">
-        <img class="imglogo" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Logo Graziela Portugal">
-        <h1 class="titulo">Grazi Portugal</h1>
-        <p class="texto">Descubra Grazi Portugal, a manicure de destaque em Sapucaia! Com anos de experiência e seu próprio salão no centro da cidade, Grazi é reconhecida pela excelência em seus serviços. Sua técnica impecável e atendimento personalizado garantem resultados extraordinários a cada visita.
-        Deixe seus pés e mãos nas mãos habilidosas da Grazi e experimente a transformação. Com ela, suas unhas se tornam verdadeiras expressões de elegância e estilo.     
-        Agende sua sessão agora e descubra por que a Grazi é a escolha certa para elevar seu estilo. Transforme suas unhas em verdadeiras joias com Grazi Portugal!</p>
-        <img class="img1" src="/imgIndividuais/GraziPortugal1.jpg" alt="GraziPortugal1">
-        <img class="img2" src="/imgIndividuais/GraziPortugal2.jpg" alt="GraziPortugal2">
-        <img class="img3" src="/imgIndividuais/GraziPortugal3.jpg" alt="GraziPortugal3">
-        <img class="img4" src="/imgIndividuais/GraziPortugal4.jpg" alt="GraziPortugal4">
-        <div class="cartaoDeVisitas">
-            <p class="cartaoCel">(24)99214 7509</p>
-            <p class="cartaoEnd">Praça Miguel Couto Filho, 144, Centro, Sapucaia</p>
-            <a href="https://www.instagram.com/grazielaportugal/" class="cartaoLink">Instagram</a>
+        <div class="topoDaPagina">
+            <img class="imglogo" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Logo Graziela Portugal">
+            <h1 class="titulo">Grazi Portugal</h1>
         </div>
-        <div class="whats">
-            <a href="https://wa.me/5524992147509" target="_blank">
-                <img src="/imgPropaganda/WhatsApp Individual.jpg" alt="Whatsapp" class="whatsImg">
-            </a>
+        <section>
+            <div class="carrossel">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/imgIndividuais/GraziPortugal1.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/GraziPortugal2.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/GraziPortugal3.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/GraziPortugal4.jpg"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> 
+                </div>
+            </div>
+        </section>
+        <div class="texto">
+            <p> Descubra a excelência em cuidados para suas unhas com Graziela Portugal. Renomada em Sapucaia, Graziela combina qualidade impecável com bom humor contagiante. Deixe suas mãos nas mãos habilidosas de Graziela e eleve sua beleza a um novo patamar. Experimente o luxo de um serviço personalizado e sinta-se renovada em cada visita. Agende agora e descubra por que Graziela Portugal é a escolha preferida de tantos. Transforme suas unhas em verdadeiras obras de arte e desfrute da experiência única proporcionada por Graziela.</p>
         </div>
+        <section class="cartaoDeVisitas">
+            <div class="cartaoP1">
+                <p class="cartaoCel">(24)99214 7509</p>
+                <p class="cartaoEnd">Praça Miguel Couto Filho, 144, Centro, Sapucaia</p>
+            </div>
+            <div class="cartaoP2">
+                <a href="https://www.instagram.com/grazielaportugal/" class="cartaoLink">Instagram</a>
+                <div class="whats">
+                    <a href="https://wa.me/5524992147509" target="_blank" class="whatsNun"> WhatsApp</a>
+                </div>
+            </div>
+        </section>  
     </main>  
     <footer>
         <a class="rodiape" href="https://webportugalbyjunqueira.com.br/">
             <p class="rodape">WEB PORTUGAL BY JUNQUEIRA</p>
         </a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>

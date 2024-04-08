@@ -33,6 +33,35 @@ body{
     overflow: auto;
 }
 
+.cabecalhoLogo{
+    width: 20px;
+    height: 20px;
+    border: solid 2px var(--cor-branco);
+    margin: 0 14px 0 0;
+}
+
+.cabecalhoLupa{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.cabecalhoFiltro{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoopcaobotao{
+    margin: 0 10px;
+    background: linear-gradient(to bottom right, #555555, #999999);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: var(--cor-branco);
+    cursor: pointer;
+}
+
 .cabecalho_link{
     text-decoration: none;
     font-family: 'Cinzel', serif;
@@ -137,7 +166,15 @@ body{
     text-decoration: none;
 }
 
+.hide{
+    display: none;
+}
+
 @media screen and (min-width: 720px){
+
+    .cabecalho{
+        align-items: center;
+    }
 
     .cabecalho_link_selecionado{
         font-size: 1.2rem;

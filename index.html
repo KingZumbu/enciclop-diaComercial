@@ -14,17 +14,27 @@
 </head>
 <body>
     <header class="cabecalho">
+        <img src="/img/logo.jpg" alt="Logotipo" class="cabecalhoLogo">
+        <img src="/img/lupa.jpg" alt="Pesquisar" class="cabecalhoLupa" onclick="abrirOculto('buscaFiltro')">
+        <div id="buscaFiltro" class="cabecalhoFiltro hide">
+            <select name="local" id="filtroLocal" class="cabecalhoopcao">
+                <option value="sapucaia">Sapucaia</option>
+                <option value="alemParaiba">Alem Paraiba</option>
+            </select>
+            <p class="cabecalhoopcaobotao" onclick="gerarFiltro()">Buscar</p>
+        </div>
         <a href="index.html" class="cabecalho_link">Principal</a>
-        <a href="manicures.html" class="cabecalho_link">Manicure</a>
-        <a href="mei.html" class="cabecalho_link">MEI</a>
-        <a href="webSite.html" class="cabecalho_link">Sites</a>
+        <a href="/Paginas de Grupo/manicures.html" class="cabecalho_link">Manicures</a>
+        <a href="/Paginas de Grupo/mei.html" class="cabecalho_link">MEIs</a>
+        <a href="/Paginas de Grupo/webSite.html" class="cabecalho_link">Sites</a>
+        <a href="/Paginas de Grupo/moto.html" class="cabecalho_link">Motos</a>
     </header>
     <img src="img/Enciclopédia.jpg" alt="Logotipo da Enciclopédia Comercial" class="logotipo paraCel">
     <img src="img/Comercial.jpg" alt="Logotipo da Enciclopédia Comercial" class="logotipo paraPc">
     <section class="procureNos">
         <div class="procureNos_inicio">
             <p class="procureNos_titulo">Quer ter seu anúncio?</p>
-            <p class="procureNos_botao" onclick="abrirProcuraNos()">Anuncie Aqui</p>
+            <p class="procureNos_botao" onclick="abrirOculto('procureNos_div')">Anuncie Aqui</p>
         </div>
         <p class="procureNos_RePNome">Com Planos Gratuitos</p>
         <div class="procureNos_div hide" id="procureNos_div">
@@ -107,7 +117,7 @@
                 </ul>
             </div>
             <div class="anuncios">
-                <div class="anuncio">
+                <div class="anuncio" data-local="alemParaiba">
                     <img class="anuncioImg" src="/imgPropaganda/junquieira portugal.jpg" alt="Junquieira Portugal">
                     <div class="anuncioTexto">
                         <a href="/Paginas individuais/JunquieiraPortugal.html" class="anuncioTitulo">JunquiEira Portugal</a>
@@ -124,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="anuncio">
+                <div class="anuncio" data-local="sapucaia">
                     <img class="anuncioImg" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Grazi Portugal">
                     <div class="anuncioTexto">
                         <a href="/Paginas individuais/GraziPortugal.html" class="anuncioTitulo">Grazi Portugal</a>
@@ -141,7 +151,7 @@
                         </div>    
                     </div>
                 </div>
-                <div class="anuncio">
+                <div class="anuncio" data-local="sapucaia">
                     <img class="anuncioImg" src="/imgPropaganda/ChocolateComPimenta.jpg" alt="Grazi Portugal">
                     <div class="anuncioTexto">
                         <a href="/Paginas individuais/GraziPortugal.html" class="anuncioTitulo">Grazi Portugal</a>
@@ -158,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="anuncio">
+                <div class="anuncio" data-local="sapucaia">
                     <img class="anuncioImg" src="/imgPropaganda/WebPortugabyJunqueira.jpg" alt="Web Portugal by Junqueira">
                     <div class="anuncioTexto">
                         <a href="/Paginas individuais/WebPortugal.html" class="anuncioTitulo">Web Portugal by Junqueira</a>

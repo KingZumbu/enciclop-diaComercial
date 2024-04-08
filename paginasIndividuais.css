@@ -40,12 +40,13 @@ body{
 }
 
 .principal{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
     text-align: center;
     margin: 0 15px 10px 15px;
     align-items: center;
+}
+
+.topoDaPagina{
+    display: flex;
 }
 
 .imglogo{
@@ -59,45 +60,30 @@ body{
     font-family: 'Bellefair', serif;
     color: var(--cor-terciaria);
     font-size: 30px;
-    grid-column: 3/7;
     text-align: center;
     margin: auto 10px auto 0;
 }
 
 .texto{
-    color: var(--cor-terciaria);
-    font-size: 10px;
-    grid-column: 1/7;
-    margin: 0 10px;
-    width: auto;
-}
-
-.img1{
-    width: 90%;
-    grid-column: 1/4;
-    margin: 0 0 0 15px;
-}
-
-.img2{
-    width: 90%;
-    grid-column: 4/7;
-}
-
-.img3{
-    width: 90%;
-    grid-column: 1/4;
-    margin: 0 0 0 15px;
-}
-
-.img4{
-    width: 90%;
-    grid-column: 4/7;
+    font-size: 12px;
+    margin: 10px 5px;
 }
 
 .cartaoDeVisitas{
-    grid-column: 1/4;
     color: var(--cor-terciaria);
     margin: 0 0 0 15px;
+    display: flex;
+}
+
+.cartaoP1{
+    width: 50vw;
+    align-items: center;
+}
+
+.cartaoP2{
+    width: 50vw;
+    align-items: center;
+    margin: 15px 0 10px 0;
 }
 
 .cartaoCel{
@@ -106,20 +92,38 @@ body{
 
 .cartaoEnd{
     margin: 10px 0;
+    font-size: 12px;
 }
 
 .cartaoLink{
-    color: var(--cor-principal);
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+    text-decoration: none;
 }
 
-.whatsImg{
-    width: 110px;
-    height: 110px;
-    grid-column: 4/7;
-    border-radius: 50%;
-    margin-left: 20px;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+.cartaoLinkGrande{
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.whats{
+    margin: 20px 0 0 0;
+}
+
+.whatsNun{
+    color: var(--cor-branco);
+    background-color: #25D366;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 .rodiape{
@@ -156,12 +160,17 @@ body{
         margin: 10px 30px;
     }
 
+    .topoDaPagina{
+        margin: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
     .imglogo{
         width: 200px;
         height: 200px;
-        display: block;
-        margin: auto;
         border-radius: 10px;
+        margin: 0 150px;
     }
 
     .titulo{
@@ -170,58 +179,37 @@ body{
     }
 
     .texto{
-        font-size: 20px;
-        grid-column: 1/5;
-        padding: auto 10px;
-    }
-
-    .img1{
-        width: 250px;
-        height: 250px;
-        grid-column: 5/7;
-        border-radius: 10px;
-        margin: 0 0 0 30px;
-    }
-
-    .img2{
-        width: 200px;
-        height: 200px;
-        grid-column: 1/2;
-        display: block;
-        margin: auto;
-        border-radius: 10px;
-    }
-
-    .img3{
-        width: 200px;
-        height: 200px;
-        grid-column: 2/3;
-        display: block;
-        margin: auto;
-        border-radius: 10px;
-    }
-
-    .img4{
-        width: 200px;
-        height: 200px;
-        grid-column: 3/4;
-        display: block;
-        margin: auto;
-        border-radius: 10px;
+        font-size: 18px;
     }
 
     .cartaoDeVisitas{
-        grid-column: 4/6;
-        display: block;
         margin: auto;
     }
 
-    .whatsImg{
-        grid-column: 6/7;
-        width: 150px;
-        height: 150px;
-        margin: auto;
-        display: block;
+    .cartaoCel{
+        font-size: 24px;
+    }
+
+    .cartaoEnd{
+        font-size: 24px;
+    }
+
+    .cartaoLink{
+        font-size: 24px;
+        border-radius: 30px;
+        padding: 4px 15px;
+    }
+
+    .cartaoLinkGrande{
+        font-size: 24px;
+        border-radius: 30px;
+        padding: 4px 15px;
+    }
+
+    .whatsNun{
+        font-size: 24px;
+        border-radius: 30px;
+        padding: 4px 15px;
     }
 }
 

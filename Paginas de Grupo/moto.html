@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manicures</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/paginasGrupos.css">
+    <script defer src="/main.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/img/logo.jpg" alt="Logotipo" class="cabecalhoLogo">
+        <img src="/img/lupa.jpg" alt="Pesquisar" class="cabecalhoLupa" onclick="abrirOculto('buscaFiltro')">
+        <div id="buscaFiltro" class="cabecalhoFiltro hide">
+            <select name="local" id="filtroLocal" class="cabecalhoopcao">
+                <option value="sapucaia">Sapucaia</option>
+                <option value="alemParaiba">Alem Paraiba</option>
+            </select>
+            <p class="cabecalhoopcaobotao" onclick="gerarFiltro()">Buscar</p>
+        </div>
+        <a href="/index.html" class="cabecalho_link">Principal</a>
+        <a href="/Paginas de Grupo/manicures.html" class="cabecalho_link">Manicures</a>
+        <a href="/Paginas de Grupo/mei.html" class="cabecalho_link">MEIs</a>
+        <a href="/Paginas de Grupo/webSite.html" class="cabecalho_link">Sites</a>
+        <p class="cabecalho_link_selecionado">Motos</p>
+    </header>
+    <main>
+        <section class="cabeca">
+            <img class="cabecaImg" src="/imgPropaganda/propaganda.jpg" alt="Propaganda">
+            <img class="cabecaImg" src="/imgPropaganda/propaganda.jpg" alt="Propaganda">
+            <img class="cabecaImg" src="/imgPropaganda/propaganda.jpg" alt="Propaganda">
+            <img class="cabecaImg paraPc" src="/imgPropaganda/propaganda.jpg" alt="Propaganda">
+            <img class="cabecaImg paraPc" src="/imgPropaganda/propaganda.jpg" alt="Propaganda">
+        </section>
+        <section class="anuncios">   
+        </section>
+    </main>
+    <footer>
+        <a class="rodiape" href="https://webportugalbyjunqueira.com.br/">
+            <p class="rodape">WEB PORTUGAL BY JUNQUEIRA</p>
+        </a>
+    </footer>
+</body>
+</html>
