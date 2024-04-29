@@ -117,6 +117,19 @@ body{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+.procureNos_inscr{
+    width: 85%;
+    padding: 4px 10px;
+    font-size: 1.2rem;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    color: var(--cor-branco);
+    margin: 10px 0;
+    border: none;
+}
+
 .procureNos_representante{
     display: flex;
     align-items: center;
@@ -230,6 +243,106 @@ body{
     display: none;
 }
 
+
+
+
+
+
+
+.corpoInscr{
+    display: flex;
+}
+
+.pacotesOption{
+    display: flex;
+    margin: 10px;
+}
+
+.opcaoPacotes{
+    font-size: 0.8rem;
+    margin: 6px;
+    background-color: orangered;
+    color: var(--cor-branco);
+    padding: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formularioDeInscr{
+    font-family: 'Bellefair', serif;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_inscr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin: 20px 0;
+}
+
+.divLable{
+    align-items: start;
+    margin: 0 0 10px 0;
+}
+
+.formResp{
+    width: 200px;
+    border-radius: 8px;
+}
+
+.termoDeUso{
+    display: flex;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.TDU{
+    font-size: 0.8rem;
+    margin: 10px;
+    font-weight: 300;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.TDUvertexto{
+    color: var(--cor-principal);
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.btnDesabilitado{
+    font-size: 1rem;
+    padding: 8px;
+    width: 100px;
+    font-weight: 600;
+    background-color: gainsboro;
+    color: var(--cor-branco);
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btnHabilitado{
+    font-size: 1rem;
+    padding: 8px;
+    width: 100px;
+    font-weight: 600;
+    background-color: orangered;
+    color: var(--cor-branco);
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+
 @media screen and (min-width: 720px){
     .paraPc{
         display: block;
@@ -251,6 +364,16 @@ body{
     
     .procureNos_RePNome{
         font-size: 20px;
+    }
+
+    .procureNos_inscr{
+        width: 250px;
+    }
+
+    .procureNos_inscr:hover{
+        background-color: var(--cor-branco);
+        color: orangered;
+        transition: 0.3s;
     }
 
     .procureNos_whats{
@@ -303,6 +426,49 @@ body{
 
     .anuncioWebSite{
         font-size: 16px;
+    }
+
+
+
+    .corpoPonte{
+        margin: 0 80px;
+    }
+
+    .termoDeUso{
+        margin: 10px 140px;
+    }
+
+    .formResp{
+        width: 280px;
+    }
+
+    .TDU{
+        width: 500px;
+        justify-content: center;
+    }
+
+    .pacotesOption{
+        justify-content: center;
+    }
+
+    .opcaoPacotes{
+        margin: 10px 10px;
+        font-size: 1rem;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    .opcaoPacotes:hover{
+        background-color: var(--cor-branco);
+        color: orangered;
+        border-radius: 14px;
+        transition: 0.3s;
+    }
+
+    .TDUvertexto:hover{
+        color: orangered;
+        font-family: 'Cinzel', serif;
+        margin: 0 5px;
     }
 }
 
