@@ -477,6 +477,10 @@ body{
         font-family: 'Cinzel', serif;
         margin: 0 5px;
     }
+
+    .hide{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1440px){
