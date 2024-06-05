@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabryel Vieira</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/paginasIndividuais.css">
+    <link rel="stylesheet" href="/carrossel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="../index.html" class="cabecalho_link">Principal</a>
+        <a href="../Paginas de Grupo/lazer.html" class="cabecalho_link">Lazer</a>
+    </header>
+    <main class="principal">
+        <div class="topoDaPagina">
+            <img class="imglogo" src="/imgPropaganda/Jessica Kamillis.jpg" alt="Logo Gabryel Vieira">
+            <h1 class="titulo">Gabryel Vieira</h1>
+        </div>
+        <section>
+            <div class="carrossel">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/imgIndividuais/JessicaKamillis1.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JessicaKamillis2.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JessicaKamillis3.jpg"></div>
+                    <div class="swiper-slide"><img src="/imgIndividuais/JessicaKamillis4.jpg"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> 
+                </div>
+            </div>
+        </section>
+        <div class="texto">
+            <p> Descubra a magia de Gabryel Vieira, um artista que transcende os limites dos gêneros musicais. Com uma voz envolvente e presença de palco cativante, ele transforma bares e clubes em palcos de celebração. Prepare-se para uma experiência única, onde cada nota é uma emoção e cada música é uma história. Não perca a chance de vivenciar momentos memoráveis com Gabryel Vieira!</p>
+        </div>
+        <section class="cartaoDeVisitas">
+            <div class="cartaoP1">
+                <p class="cartaoCel">(32) 99852 1513</p>
+                <p class="cartaoEnd">Rua Alexandre Pedro, Morro São Sebastião, Alem Paraíba</p>
+            </div>
+            <div class="cartaoP2">
+                <a href="https://youtube.com/@gabryelvieira2476?si=NggHi7yrYGRS95qf" class="cartaoLink">Youtube</a>
+                <div class="whats">
+                    <a href="https://wa.me/5532998521513" target="_blank" class="whatsNun"> WhatsApp</a>
+                </div>
+            </div>
+        </section>  
+    </main>  
+    <footer>
+        <a class="rodiape" href="https://webportugalbyjunqueira.com.br/">
+            <p class="rodape">WEB PORTUGAL BY JUNQUEIRA</p>
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
+</body>
+</html>

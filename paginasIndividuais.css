@@ -114,6 +114,25 @@ body{
     font-size: 10px;
 }
 
+.produtoDiv{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.cartaoProduto{
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsProduto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .whats{
     margin: 20px 0 0 0;
 }
