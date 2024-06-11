@@ -66,12 +66,12 @@ body{
 
 .texto{
     font-size: 12px;
-    margin: 10px 5px;
+    margin: 30px 5px;
 }
 
 .cartaoDeVisitas{
     color: var(--cor-terciaria);
-    margin: 0 0 0 15px;
+    margin: 15px 0 0 15px;
     display: flex;
 }
 
@@ -131,6 +131,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.produtoComFoto{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    border: solid 2px var(--cor-branco);
+    border-radius: 15px;
+}
+
+.produtoComFotoImagem{
+    width: 40vw;
+    border-radius: 15px;
+}
+
+.produtoComFotoDiv{
+    margin: auto;
+}
+
+.produtoNome{
+    font-size: 24px;
+    justify-content: center;
+    margin: 25px;
+    color: var(--cor-principal);
+    font-family: 'Bellefair', serif;
+}
+
+.produtoPreco{
+    color: var(--cor-principal);
+    font-family: 'Bellefair', serif;
+    font-weight: 700;
+}
+
+.whatsProduto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .whats{
@@ -202,7 +239,7 @@ body{
     }
 
     .cartaoDeVisitas{
-        margin: auto;
+        margin: 40px auto;
     }
 
     .cartaoCel{
@@ -229,6 +266,21 @@ body{
         font-size: 24px;
         border-radius: 30px;
         padding: 4px 15px;
+    }
+
+    .produtoComFotoImagem{
+        height: 162px;
+        width: 162px;
+    }
+    .cartaoProdutoParaPc{
+        display: flex;
+        width: 95vw;
+        justify-content: space-between;
+    }
+
+    .produtoComFoto{
+        width: 100%;
+        margin: 10px;
     }
 }
 
