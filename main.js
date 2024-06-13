@@ -1,4 +1,5 @@
 
+
 function abrirOculto(aba){
     document.getElementById(aba).classList.remove("hide")
 }
@@ -77,3 +78,5 @@ fileInput.addEventListener("change", function() {
         base64Input.value = "";
     }
 });
+
+

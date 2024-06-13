@@ -83,6 +83,15 @@ body{
     text-align: center;
 }
 
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecaImg{
+    width: 32%;
+}
+
 .propaganda{
     width: 160px;
 }
@@ -350,6 +359,96 @@ body{
 
 
 
+
+.produtosTitulo{
+    font-size: 30px;
+    margin: 15px;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.produtoComFoto1{
+    display: flex;
+    margin: 10px 5px 0px 5px;
+    border: solid 2px var(--cor-branco);
+    border-radius: 15px;
+}
+
+.produtoPreco1{
+    color: var(--cor-principal);
+    font-family: 'Bellefair', serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.anuncioProdutoIndividual{
+    display: flex;
+    margin: 5px;
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anuncioProdutoImg{
+    width: 25%;
+    border-radius: 5px;
+}
+
+.anuncioProdutoTitulo{
+    margin: 10px auto;
+    display: block;
+    font-family: 'Cinzel', serif;
+}
+
+.anuncioProdutoTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.anuncioProdutoNome{
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.anuncioProdutoPreco{
+    color: red;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.whatsProduto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.whatsNun{
+    color: var(--cor-branco);
+    background-color: #25D366;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.conhecaProdutos{
+    margin: 10px;
+    text-decoration: underline;
+    color: var(--cor-principal);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+
+
+
 @media screen and (min-width: 720px){
     .paraPc{
         display: block;
@@ -362,6 +461,10 @@ body{
     .cabecalho_link{
         font-size: 0.9rem;
         margin: 0.2em 4em;
+    }
+
+    .cabecaImg{
+        width: 19%;
     }
 
     .procureNos{
@@ -481,6 +584,30 @@ body{
     .hide{
         display: none;
     }
+
+
+
+    .produtosTitulo{
+        font-size: 50px;
+    }
+    
+    .produtosPerfiladosDiv{
+        display: flex;
+    }
+
+    .produtoComFoto1{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .anuncioProduto{
+        display: flex;
+    }
+
+    .anuncioProdutoIndividual{
+        width: 48vh;
+    }
+    
 }
 
 @media screen and (min-width: 1440px){
