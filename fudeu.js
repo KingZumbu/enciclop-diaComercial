@@ -21,7 +21,7 @@ const produto = {
     },
     "4":{
         "nome":"Play Station 5 Slim",
-        "preco":"R$ 2399,00",
+        "preco":"R$ 3889,00",
         "img":"/imgProdutoParaVenda/Amz_PlayStation.jpg",
         "link":"https://www.amazon.com.br/PlayStation%C2%AE5-Slim-Disk-2-Jogos/dp/B0CSPNDPKG?_encoding=UTF8&brr=1&content-id=amzn1.sym.cdc08931-d2d2-4905-9f0a-0cdb648fa5a5&dib=eyJ2IjoiMSJ9.5MNd3VQRWvDFeAjUZSj19ED9nscn9_yXiEf3Fi9_B9owwzcKte4Xd0nhnOETcN4ec8RDk0g3VOIW8yoKeZEqmrio6iov-QDoyHQ2rKMR87c_u4hv4mmWuOFirvEu-CXSmD52pKkoYasVnYD9EtQJ1DwlhBstpjnhwUiXtoDNzFTgfGqqONhbo66my9c7vyLzHHAvw6wz6CPvG010x0RjWORx6clBKN8kHYotfV-VbhA.xL4kWm3JMkPdoZc09UQbOJuT0CAqe7vk2VkAQGocNkA&dib_tag=se&pd_rd_r=eb914a07-bbec-4fee-a435-18a95591b80c&pd_rd_w=kA56F&pd_rd_wg=9oxn2&pf_rd_i=7791985011&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=82687fad-ee91-4175-b63d-93d238b9313f&pf_rd_r=5MF63W6TXZAEGCQ9W35Z&pf_rd_s=merchandised-search-8&qid=1718298455&rd=1&s=videogames&sr=1-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&linkCode=ll1&tag=juk0406-20&linkId=74f29f9cf25369939b626904d0b2b7a1&language=pt_BR&ref_=as_li_ss_tl"
     },
