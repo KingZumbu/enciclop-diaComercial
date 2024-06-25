@@ -11,7 +11,7 @@ function gerarFiltro(){
 
     dataLocal.forEach(el => {
         const cidadeData = el.getAttribute('data-local')
-
+ 
         
         if(cidadeData === cidadeFiltrada){
             console.log("aheee")
@@ -80,3 +80,21 @@ fileInput.addEventListener("change", function() {
 });
 
 
+
+
+// Função para abrir o modal
+document.getElementById('TDUHabilitado').onclick = function() {
+    document.getElementById('myModal').style.display = 'block';
+}
+
+// Função para fechar o modal
+document.getElementsByClassName('close')[0].onclick = function() {
+    document.getElementById('myModal').style.display = 'none';
+}
+
+// Fecha o modal se o usuário clicar fora do conteúdo do modal
+window.onclick = function(event) {
+    if (event.target == document.getElementById('myModal')) {
+        document.getElementById('myModal').style.display = 'none';
+    }
+}
