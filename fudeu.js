@@ -90,6 +90,12 @@ const produto = {
         "preco":"R$ 89,90",
         "img":"/imgProdutoParaVenda/LittleCat4.jpg",
         "link":"https://wa.me/5524981566692?text=*Enciclopédia%20Comercial*%0AEu%20quero%20comprar%20o%20perfume%20Invictus%20por%2089,90"
+    },
+    "16":{
+        "nome":"Mala de Bordo de 10kg",
+        "preco":"R$ 189,90",
+        "img":"/imgProdutoParaVenda/Maleta_de_rodinha.jpg",
+        "link":"https://www.amazon.com.br/Bagagem-Compartimento-Falcon-Line-resistentes/dp/B0B7KCH5JF?_encoding=UTF8&pd_rd_w=dtyYS&content-id=amzn1.sym.09916995-565b-4f2a-a31f-48091c48a79c%3Aamzn1.symc.5111b5a7-85f4-4b0c-88b2-c0a74bb618a6&pf_rd_p=09916995-565b-4f2a-a31f-48091c48a79c&pf_rd_r=99V3JEGBKZKGXNPQXQ22&pd_rd_wg=L6kuP&pd_rd_r=d10dfa88-d3d4-4ad4-88d9-3a111103d277&th=1&linkCode=ll1&tag=juk0406-20&linkId=a458974f04f3ba5c1d60bbb1a43a4b1a&language=pt_BR&ref_=as_li_ss_tl"
     }
 }
 
