@@ -104,7 +104,7 @@ let produto2 = null
 
 function sorteiaproduto(){
     const min = 1;
-    const max = 15;
+    const max = 16;
 
     const primeiroNumero = Math.floor(Math.random() * (max - min + 1)) + min;
 
